@@ -1,0 +1,30 @@
+body{
+	background-color: black;
+}
+
+#lights {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: red;
+        position: absolute;
+        top:50%;left:50%;
+        -webkit-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%);
+    }  
+
+@keyframes lights {
+    from {background-color: red;}
+    to {background-color: orange;}
+    to {background-color: green;}
+}
+
+div {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: red;
+        animation-name: lights;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+}

@@ -1,0 +1,60 @@
+body{
+	background-color: black;
+}
+
+body:hover { 
+    background-color: yellow;
+}
+
+.row1 {
+        position: absolute;
+        top:50%;left:50%;
+        -webkit-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%);
+
+    }
+
+#stop {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: red;
+        position: static;
+        left: 30px;
+        top: 30px;
+    }  
+    
+ #ready {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: orange;
+        position: static;
+        left: 200px;
+        top: 30px;
+    }
+
+#go {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: green;
+        position: static;
+        left: 370px;
+        top: 30px;
+    } 
+
+#wait {
+      	position: static;
+        left: 540px;
+        top: 30px;
+    }
+
+#walk {
+      	position: static;
+        left: 710px;
+        top: 30px;
+    }
+
+
+
