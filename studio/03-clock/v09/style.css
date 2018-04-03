@@ -1,0 +1,54 @@
+body{
+	background-color: black;
+}
+
+@keyframes stop {
+    from {background-color: red;}
+    to {background-color: black;}
+}
+
+#stop {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: red;
+        position: relative;
+        padding: 10%;
+        animation-name: stop;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }  
+
+@keyframes ready {
+    from {background-color: orange;}
+    to {background-color: black;}
+}
+    
+ #ready {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: orange;
+        position: relative;
+        padding: 10%;
+        animation-name: ready;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+@keyframes go {
+    from {background-color: green;}
+    to {background-color: black;}
+}
+
+#go {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: green;
+        position: relative;
+        padding: 10%;
+        animation-name: go;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
