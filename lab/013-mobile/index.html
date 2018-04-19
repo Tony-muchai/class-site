@@ -1,0 +1,142 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mealtime</title>
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Oregano' rel='stylesheet'>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+ <style> 
+.box {
+	display: none;
+}
+
+.first {
+	display: block;
+}
+</style>
+
+</head>
+<body>
+
+<div class="box first" id="box1"> <div class="text"> Mealtime </div> </div>
+<div class="box" id="box2"> <div class="text"> Salad </div> </div>
+<div class="box" id="box3"> <div class="text">  Skip </div> </div>
+<div class="box" id="box4"> <div class="text"> Acar </div> </div>
+<div class="box" id="box5"> <div class="text"> Antipasto </div> </div>
+<div class="box" id="box6"> <div class="text"> Nope </div> </div>
+<div class="box" id="box7"> <div class="text"> Soup </div> </div>
+<div class="box" id="box8"> <div class="text"> Chicken </div> </div>
+<div class="box" id="box9"> <div class="text"> Tomato </div> </div>
+<div class="box" id="box10"> <div class="text"> Main </div> </div>
+<div class="box" id="box11"> <div class="text"> Pass </div> </div>
+<div class="box" id="box12"> <div class="text"> Steak </div> </div>
+<div class="box" id="box13"> <div class="text"> Sea Food </div> </div>
+<div class="box" id="box14"> <div class="text"> Next </div> </div>
+<div class="box" id="box15"> <div class="text"> Dessert </div> </div>
+<div class="box" id="box16"> <div class="text"> Fruit </div> </div>
+<div class="box" id="box17"> <div class="text"> Cake </div> </div>
+<div class="box" id="box18"> <div class="text"> Ordertime </div> </div>
+<div class="box" id="box19"> <div class="text"> Enjoy! </div> </div>
+
+<script> 
+$(".box").click(function(){
+	
+
+$(this).css("color","brown")
+
+	if($(this).index()== 0){
+		$(".box").eq(1).slideDown()
+		$(".box").eq(2).slideDown()
+	}
+
+	if($(this).index()== 1){
+		$(".box").eq(3).slideDown()
+		$(".box").eq(4).slideDown()
+	}
+
+	if($(this).index()== 2){
+		$(".box").eq(5).slideDown()
+		$(".box").eq(6).slideDown()
+	}
+
+	if($(this).index()== 3){
+		$(".box").eq(5).slideDown()
+		$(".box").eq(6).slideDown()
+	}
+
+	if($(this).index()== 4){
+		$(".box").eq(5).slideDown()
+		$(".box").eq(6).slideDown()
+	}
+
+	if($(this).index()== 5){
+		$(".box").eq(9).slideDown()
+		$(".box").eq(10).slideDown()
+	}
+
+	if($(this).index()== 6){
+		$(".box").eq(7).slideDown()
+		$(".box").eq(8).slideDown()
+	}
+
+	if($(this).index()== 7){
+		$(".box").eq(9).slideDown()
+		$(".box").eq(10).slideDown()
+	}
+
+	if($(this).index()== 8){
+		$(".box").eq(9).slideDown()
+		$(".box").eq(10).slideDown()
+	}
+
+	if($(this).index()== 9){
+		$(".box").eq(11).slideDown()
+		$(".box").eq(12).slideDown()
+	}
+
+	if($(this).index()== 10){
+		$(".box").eq(13).slideDown()
+		$(".box").eq(14).slideDown()
+	}
+
+	if($(this).index()== 11){
+		$(".box").eq(13).slideDown()
+		$(".box").eq(14).slideDown()
+	}
+
+	if($(this).index()== 12){
+		$(".box").eq(13).slideDown()
+		$(".box").eq(14).slideDown()
+	}
+
+	if($(this).index()== 13){
+		$(".box").eq(17).slideDown()
+	}
+
+	if($(this).index()== 14){
+		$(".box").eq(15).slideDown()
+		$(".box").eq(16).slideDown()
+	}
+
+	if($(this).index()== 15){
+		$(".box").eq(17).slideDown()
+	}
+
+	if($(this).index()== 16){
+		$(".box").eq(17).slideDown()
+	}
+
+	if($(this).index()== 17){
+		$(".box").eq(18).slideDown()
+	}
+})
+</script>
+    
+</body>
+</html>

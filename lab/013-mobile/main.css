@@ -1,0 +1,205 @@
+#box1 {
+        width: 100%;
+        height: 10%;
+        background-color: #EF4566;
+        position: absolute;
+        left: 50%;
+        top: 5%;
+        -webkit-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%);
+    }  
+    
+#box2 {
+        width: 50%;
+        height: 10%;
+        background-color: #83AE9B;
+        position: absolute;
+        left: 0%;
+        top: 10%;
+    }
+
+#box3 {
+        width: 50%;
+        height: 10%;
+        background-color: #192C47;
+        position: absolute;
+        left: 50%;
+        top: 10%;
+    }
+
+#box4 {
+        width: 50%;
+        height: 10%;
+        background-color: #83AE9B;
+        position: absolute;
+        left: 0%;
+        top: 20%;
+    }
+
+#box5 {
+        width: 50%;
+        height: 10%;
+        background-color: #83AE9B;
+        position: absolute;
+        left: 50%;
+        top: 20%;
+    }
+
+#box6 {
+        width: 50%;
+        height: 10%;
+        background-color: #93518F;
+        position: absolute;
+        left: 0%;
+        top: 30%;
+    }
+
+#box7 {
+        width: 50%;
+        height: 10%;
+        background-color: #C8C8A9;
+        position: absolute;
+        left: 50%;
+        top: 30%;
+    }
+
+#box8 {
+        width: 50%;
+        height: 10%;
+        background-color: #C8C8A9;
+        position: absolute;
+        left: 0%;
+        top: 40%;
+    }
+
+#box9 {
+        width: 50%;
+        height: 10%;
+        background-color: #C8C8A9;
+        position: absolute;
+        left: 50%;
+        top: 40%;
+    }
+
+#box10 {
+        width: 50%;
+        height: 10%;
+        background-color: #9B8971;
+        position: absolute;
+        left: 0%;
+        top: 50%;
+    }
+
+#box11 {
+        width: 50%;
+        height: 10%;
+        background-color: #F69A9A;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+
+#box12 {
+        width: 50%;
+        height: 10%;
+        background-color: #9B8971;
+        position: absolute;
+        left: 0%;
+        top: 60%;
+    }
+
+#box13 {
+        width: 50%;
+        height: 10%;
+        background-color: #9B8971;
+        position: absolute;
+        left: 50%;
+        top: 60%;
+    }
+
+#box14 {
+        width: 50%;
+        height: 10%;
+        background-color: #FF6D37;
+        position: absolute;
+        left: 0%;
+        top: 70%;
+    }
+
+#box15 {
+        width: 50%;
+        height: 10%;
+        background-color: #F9CDAE;
+        position: absolute;
+        left: 50%;
+        top: 70%;
+    }
+
+#box16 {
+        width: 50%;
+        height: 10%;
+        background-color: #F9CDAE;
+        position: absolute;
+        left: 0%;
+        top: 80%;
+    }
+
+#box17 {
+        width: 50%;
+        height: 10%;
+        background-color: #F9CDAE;
+        position: absolute;
+        left: 50%;
+        top: 80%;
+    }
+
+#box18 {
+        width: 100%;
+        height: 10%;
+        background-color: #8B0CE8;
+        position: absolute;
+        left: 50%;
+        top: 95%;
+        -webkit-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%);
+    }
+
+#box19 {
+        width: 100%;
+        height: 100vh;
+        background-color: #8B0CE8;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%);
+    }
+
+.box {
+    color: white;
+}
+
+.text {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%);
+    }
+    
+body {
+    font-family:oregano;
+    font-size: 250%;
+    }
+
+a {
+    color: white;
+    }
+
+a:link {
+    text-decoration: none;
+    }
+
+a:visited{ 
+    color: brown;
+}
