@@ -1,0 +1,20 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+img {
+	height: 100vh;
+	position:absolute;
+  	top:50%;left:50%;
+  	-webkit-transform:translate(-50%,-50%);
+  	transform:translate(-50%,-50%);
+}
+
+#tmaudio {
+	position:absolute;
+	background-size: 1000px 500px;
+	top:50%;left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
