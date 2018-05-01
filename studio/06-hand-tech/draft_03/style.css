@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+img {
+	height: 100vh;
+	position:absolute;
+  	top:50%;left:50%;
+  	-webkit-transform:translate(-50%,-50%);
+  	transform:translate(-50%,-50%);
+}
+
+#tmaudio {
+	position:absolute;
+	background-size: 1000px 500px;
+	top:50%;left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
+
+@keyframes fly {
+    from {top: 50%;}
+    to {top: -10%;}
+}
+
+div {
+	top:50%;
+	-webkit-transform:translateY(-10px);
+	animation-name: fly;
+	animation-duration: 10s;
+	animation-delay: 3s;
+}
