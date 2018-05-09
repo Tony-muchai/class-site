@@ -1,0 +1,41 @@
+body{
+	background-color: #FF6E4B;
+}
+
+#orangedown{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background: orange;
+	position: absolute;
+	left: 250px;
+	top:615px;
+}
+#ball{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	left: 50px;
+	top:470px;
+}
+#orangeup{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background: orange;
+	position: absolute;
+	left: 500px;
+	top: 60px;
+}
+#frame{
+	width: 340px;
+	height: 450px;
+	border-radius: 15px;
+	background: #FFF3D3;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}

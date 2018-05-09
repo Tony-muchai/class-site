@@ -1,0 +1,47 @@
+ #box1 {
+        width: 50%;
+        height: 50%;
+        background-color: yellow;
+        position: fixed;
+        left: 30%;
+        top: 30%;
+        -ms-transform: rotate(7deg); /* IE 9 */
+        -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+        transform: rotate(14deg);
+    }  
+    
+  #box2 {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        position: absolute;
+        left: 60%;
+        top: 60%;
+        -ms-transform: rotate(-20deg); /* IE 9 */
+        -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+        transform: rotate(-20deg);
+    }
+
+#box3 {
+        width: 200px;
+        height: 200px;
+        background-color: gray;
+        position: relative;
+        left: 70px;
+        top: 0px;
+        -ms-transform: rotate(8deg); /* IE 9 */
+        -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
+        transform: rotate(8deg);
+    } 
+
+#box4 {
+        width: 30px;
+        height: 30px;
+        background-color: dimgrey;
+        position: relative;
+        top: 0px;
+        -ms-transform: rotate(-20deg); /* IE 9 */
+        -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+        transform: rotate(-20deg);
+    } 
+    

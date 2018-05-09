@@ -1,0 +1,89 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: 90px;
+    font-family: arial;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;   
+}
+
+img {
+    position: absolute;
+    width: 50vw;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 100px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+input {
+    background-color: #AD602A;
+    border: 2px solid white;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
+#left {
+    width: 100vw;
+    height: 50vh;
+    float: left;
+    background-color: purple;
+}
+
+#right{
+    width: 100vw;
+    height: 50vh;
+    float: left;
+    background-color: gold;
+}
+
+#event {
+    position: absolute;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+#place {
+  	position: absolute;
+  	left: 50%;
+  	margin-top: 50px;
+  	transform: translateX(-50%);
+  	-ms-transform: translateX(-50%);
+  	-webkit-transform: translateX(-50%);    
+}
+
+#event_text {
+  	top: 100px;
+  	position: relative;
+}
+
+#place_text {
+  	top: 100px;
+  	position: relative;
+}
+
+#center {
+    position: fixed;
+    left: 50%;
+  	transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
