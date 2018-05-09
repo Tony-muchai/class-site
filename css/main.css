@@ -1,0 +1,262 @@
+body{
+    background-color: white;
+    font-family: futura;
+    font-size: 93%;
+    color: black;
+}
+
+#box1 {
+        width: 20%;
+        height: 20%;
+        background-color: red;
+        position: absolute;
+        left: 15%;
+        top: 10%;
+    }
+
+#box1page {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: red;
+    z-index: 3;
+    display:none;
+}
+
+#box2 {
+        width: 20%;
+        height: 20%;
+        background-color: green;
+        position: absolute;
+        left: 40%;
+        top: 10%;
+    }
+
+#box2page {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: green;
+    z-index: 3;
+    display:none;
+}
+
+#box3 {
+        width: 20%;
+        height: 20%;
+        background-color: blue;
+        position: absolute;
+        left: 65%;
+        top: 10%;
+    }
+
+#box3page {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: blue;
+    z-index: 3;
+    display:none;
+}
+
+#box4 {
+        width: 20%;
+        height: 20%;
+        background-color: pink;
+        position: absolute;
+        left: 15%;
+        top: 35%;
+    }
+
+#box4page {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: pink;
+    z-index: 3;
+    display:none;
+}
+
+#box5 {
+        width: 20%;
+        height: 20%;
+        background-color: lightgreen;
+        position: absolute;
+        left: 40%;
+        top: 35%;
+    }
+
+#box5page {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: lightgreen;
+    z-index: 3;
+    display:none;
+}
+
+#box6 {
+        width: 20%;
+        height: 20%;
+        background-color: skyblue;
+        position: absolute;
+        left: 65%;
+        top: 35%;
+    }
+
+#box6page {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: skyblue;
+    z-index: 3;
+    display:none;
+}
+
+#box7 {
+        width: 20%;
+        height: 20%;
+        background-color: maroon;
+        position: absolute;
+        left: 15%;
+        top: 60%;
+    }
+
+#box7page {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: maroon;
+    z-index: 3;
+    display:none;
+}
+
+#box8 {
+        width: 20%;
+        height: 20%;
+        background-color: olive;
+        position: absolute;
+        left: 40%;
+        top: 60%;
+    }
+
+#box8page {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: olive;
+    z-index: 3;
+    display:none;
+}
+
+
+#box9 {
+        width: 20%;
+        height: 20%;
+        background-color: teal;
+        position: absolute;
+        left: 65%;
+        top: 60%;
+    }
+
+#box9page {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: teal;
+    z-index: 3;
+    display:none;
+}
+
+h1 {
+        font-family: futura;
+        font-weight: bold;
+        font-size: 93%;
+        color: black;
+        position:fixed;
+        top:90%;left:50%;
+        -webkit-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%);
+    }
+
+h2 {
+        font-family: futura;
+        font-weight: bold;
+        font-size: 93%;
+        color: white;
+        position:relative;
+        top:10%;
+        left:15%;
+    }
+
+h3 {
+        font-family: futura;
+        font-weight: bold;
+        font-size: 93%;
+        color: white;
+        position:absolute;
+        top:5%;left:50%;
+        -webkit-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%);
+    }
+
+p {
+        font-family: futura;
+        font-size: 93%;
+        color: white;
+        position:absolute;
+        top:15%;left:50%;
+        -webkit-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%);
+    }
+
+iframe {
+    width: 80%;
+    height: 50%;
+    border:none;
+    background-color: white;
+    position:absolute;
+    top:50%;left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+
+#button {
+        width: 80px;
+        height: 40px;
+        background-color: none;
+        border: solid;
+        border-width: 3px;
+        border-color: white;
+        border-radius: 8px;
+        position: absolute;
+        top:93%;left:50%;
+        -webkit-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%);
+    }
+
+a {
+    color: white;
+    }
+
+a:link {
+    text-decoration: none;
+    }
