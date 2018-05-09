@@ -186,13 +186,35 @@ body{
     display:none;
 }
 
+#box10 {
+        width: 30%;
+        height: 5%;
+        background-color: black;
+        position: fixed;
+        left: 50%;
+        top: 85%;
+        -webkit-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%);
+    }
+
+#box10page {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: black;
+    z-index: 3;
+    display:none;
+}
+
 h1 {
         font-family: futura;
         font-weight: bold;
         font-size: 93%;
         color: black;
         position:fixed;
-        top:90%;left:50%;
+        top:85%;left:50%;
         -webkit-transform:translate(-50%,-50%);
         transform:translate(-50%,-50%);
     }
@@ -223,14 +245,14 @@ p {
         font-size: 93%;
         color: white;
         position:absolute;
-        top:15%;left:50%;
+        top:12%;left:50%;
         -webkit-transform:translate(-50%,-50%);
         transform:translate(-50%,-50%);
     }
 
 iframe {
     width: 80%;
-    height: 50%;
+    height: 60%;
     border:none;
     background-color: white;
     position:absolute;
